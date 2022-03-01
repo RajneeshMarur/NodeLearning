@@ -2,6 +2,8 @@ var http = require('http'); // this is built in module
 var url = require('url'); // this is also a built-in module for URL parsing
 var fs = require('fs'); // built-in module for file read from the webpage and display
 //WebURL to test this: localhost:8080/index
+// For Heroku to work use PORT
+const PORT = process.env.PORT || 5500
 
 http.createServer(function (req, res) { // To read from the file present in the directory
 	var q = url.parse(req.url, true);
@@ -32,6 +34,6 @@ http.createServer(function (req, res) { // To read from the file present in the 
 	res.write(dates);
 	//res.end('<h1>Hello World!</h1>');
 	res.end();*/
-}).listen(8080);
+}).listen(PORT);
 
 console.log("Server Listening on Port 8080");
