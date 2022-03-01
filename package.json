@@ -1,0 +1,19 @@
+{
+  "name": "initalnodehtml",
+  "version": "16.14.0",
+  "description": "Simple Web App",
+  "main": "hello.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RajneeshMarur/NodeLearning.git"
+  },
+  "author": "RajneeshMarur",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RajneeshMarur/NodeLearning/issues"
+  },
+  "homepage": "https://github.com/RajneeshMarur/NodeLearning#readme"
+}
